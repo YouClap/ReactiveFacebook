@@ -1,0 +1,3 @@
+github "facebook/facebook-sdk-swift" "master"
+github "facebook/facebook-ios-sdk" "sdk-version-4.22.1"
+github "ReactiveCocoa/ReactiveSwift" ~> 1.1

@@ -13,4 +13,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "git@github.com:YouClap/ReactiveFacebook.git", :tag => s.version.to_s }
   s.source_files  = "Sources/**/*"
   s.frameworks  = "Foundation"
+  s.dependency = "ReactiveSwift"
+  s.dependency = "FacebookCore"
+  s.dependency = "FacebookLogin"
 end
